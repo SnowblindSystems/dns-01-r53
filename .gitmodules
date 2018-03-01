@@ -1,0 +1,10 @@
+[submodule "dehydrated"]
+	path = dehydrated
+	url = https://github.com/lukas2511/dehydrated
+	branch = v0.5.0
+
+[submodule "dehydrated-route53-hook-script"]
+	path = dehydrated-route53-hook-script
+	url = https://github.com/whereisaaron/dehydrated-route53-hook-script
+	branch = v0.4.0
+

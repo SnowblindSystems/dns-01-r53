@@ -1,0 +1,15 @@
+
+# for configuration variables see
+# https://github.com/lukas2511/dehydrated/blob/master/docs/examples/config
+
+
+# include common configuration
+source config.common
+
+
+# use staging acme server
+CA=https://acme-staging.api.letsencrypt.org/directory
+
+# use staged directory for certificate output
+CERTDIR="$BASEDIR/staged"
+

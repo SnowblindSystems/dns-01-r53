@@ -1,0 +1,18 @@
+
+# for configuration variables see
+# https://github.com/lukas2511/dehydrated/blob/master/docs/examples/config
+
+
+# contact email for lets encrypt account
+CONTACT_EMAIL=ssl@example.com
+
+
+# include AWS credential configuration
+source .credentials
+
+
+# specify dns-01 challenge & hook
+CHALLENGETYPE=dns-01
+HOOK=./dehydrated-route53-hook-script/hook.sh
+HOOK_CHAIN=no
+
