@@ -1,4 +1,4 @@
-# Lets Encrypt w/ route53
+# Lets Encrypt certificates via route53
 
 ##### This is a simple skeleton for [``dehydrated``](https://github.com/lukas2511/dehydrated/tree/v0.5.0) + [``dehydrated-route53-hook-script``](https://github.com/whereisaaron/dehydrated-route53-hook-script/tree/v0.4.0)
 
